@@ -1,6 +1,6 @@
 {
   "name": "three-sierpinski",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Sierpinski Triangle for THREE.js",
   "main":   "build/three-sierpinski.js",
   "module": "index.js",
