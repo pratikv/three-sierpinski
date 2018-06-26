@@ -18,11 +18,12 @@ export default {
             file: 'build/three-sierpinski.js',
             indent: '\t',
             name: "THREE.Sierpinski"
-        },
-        {
-            format: 'es',
-            file: 'build/three-sierpinski.module.js',
-            indent: '\t'
         }
+        // ,
+        // {
+        //     format: 'es',
+        //     file: 'build/three-sierpinski.module.js',
+        //     indent: '\t'
+        // }
     ]
 };

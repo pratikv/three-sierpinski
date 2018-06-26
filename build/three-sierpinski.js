@@ -98,10 +98,10 @@
 	    if (pC instanceof THREE.Vector3) {
 	        pC = pC.toArray();
 	    }
-	    
+
 	    var sierpinskiTriangle$$1 = sierpinskiTriangle(pA, pB, pC, depth, 3);
 	    var bufferGeometry = new THREE.BufferGeometry();
-	    bufferGeometry.addAttribute('position', new Float32Array(sierpinskiTriangle$$1.pts), sierpinskiTriangle$$1.sz);
+	    bufferGeometry.addAttribute('position', new THREE.BufferAttribute( new Float32Array(sierpinskiTriangle$$1.pts),3));
 	    return bufferGeometry;
 	}
 
